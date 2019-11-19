@@ -1,0 +1,98 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registration</title>
+<style>
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-image: url("res/back1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.reg{
+  background: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%,-50%);
+}
+.reg input{
+  padding:5px;
+  margin: 5px;
+  background: transparent;
+  border-top:none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid white;
+}
+::-moz-placeholder{
+	text-align: center;
+  color:white;
+}
+.signin{
+
+}
+.regbtn{
+  margin-top: 10px;
+  width: 100px;
+  height: 35px;
+  background: transparent;
+  color:white;
+  margin-left:70%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+.regbtn:hover{
+  background: #4CAF50;
+}
+.signin a:visited{
+  background: cyan;
+}
+
+</style>
+<link rel="css/stylesheet" href="css/rstyle.css">
+<script type="text/javascript" src="js/rscript.js">
+
+</script>
+
+
+</head>
+<body>
+
+<form>
+  <div class="reg">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+
+    <label for="Name"><b>Name</b></label>
+&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp
+    <input type="text" placeholder="Enter Name" name="name" ><br>
+    <label for="Dep"><b>Department </b></label>
+&nbsp&nbsp&nbsp&nbsp
+    <input type="text" placeholder="Enter Department" name="dep" ><br>
+    <label for="email"><b>Email</b></label>
+    &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp
+    <input type="text" placeholder="Enter Email" name="email" ><br>
+
+    <label for="psw"><b>Password</b></label>
+    &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp
+    <input type="password" placeholder="Enter Password" name="psw" ><br>
+
+
+
+    <button class="regbtn" onclick="mlog();">Register</button>
+
+
+  <div class="signin">
+    <p>Already have an account? <a href="index.html">Sign in</a>.</p>
+  </div>
+  </div>
+</form>
+
+</body>
+</html>

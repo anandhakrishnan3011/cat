@@ -1,0 +1,28 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+body{
+  background-image: url("back6.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sidebar{
+  background:
+}
+table, th, td {
+  border: 1px solid black;
+  padding:3px;
+  background: transparent;
+}
+.tab{
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left:20%;
+  margin-top:150px;
+}
+.text{
+  position: absolute;
+  left:20%;
+  margin-top:15px;
+}

@@ -1,0 +1,41 @@
+*{
+  paddin: 0;
+  margin: 0;
+}
+body{
+  background-image: url("back8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ques{
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding:30px;
+}
+.ques h3{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+label{
+  color:white;
+}
+#btn1,#btn2{
+  background: transparent;
+  color:white;
+  border-radius: 20px;
+  width: 130px;
+  height: 45px;
+  margin-top: 20px;
+  margin-left:35px;
+}
+#btn2:hover{
+     background: #4CAF50;
+
+}
+#btn1:hover{
+     background: #4CAF50;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+ <style media="screen">
+ body{
+	 font-family: sans-serif;
+	 text-align: center;
+	 background: url("res/back1.jpg");
+	 background-size: cover;
+
+ }
+ </style>
+
+
+</head>
+<body>
+
+	<div class="search-box">
+
+		<div class="text-box">
+			<h2 align>LOGIN</h2>
+			<select id="stlog">
+					<option>Student</option>
+					<option>Teacher</option>
+				</select>
+
+		<input type="text" name="name" placeholder="Name"id="usr" class="textbx"><br><br><br>
+	</div>
+		<div class="text-box">
+		<input type="password" name="number" placeholder="password" id="pswd" class="textbx"><br><br><br>
+	</div>
+	<button id="btn1" onclick="javascript:displayresult();"> LOGIN</button>
+	<p class="rlink">Click here to Register <button id="btn2"onclick="reg();">Register</button></p>
+
+	</div>
+	<div class="result"></div>
+
+
+</body>
+</html>
